@@ -1,0 +1,29 @@
+import java.util.*;
+public class q1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner a = new Scanner(System.in);
+		int map[]= new int[10];
+		int i = 0;
+		map[i]=1;
+		
+		for(int arr : map) {
+			System.out.print(arr);
+		}
+		System.out.println();
+		
+		System.out.println("숫자를 입력하세요");
+		int my = a.nextInt();
+		
+		map[i]=0;
+		map[my-1]=1;
+		
+		for(int arr : map) {
+			System.out.print(arr);
+		}
+		System.out.println();
+	}
+
+}
